@@ -1,0 +1,66 @@
+Benchmark summary (last line only)
+Running benchmark: M=256, N=256, K=256
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:256/bl:32      16421 ns        16420 ns        42645
+Running benchmark: M=256, N=256, K=512
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:512/bl:32      24825 ns        24824 ns        28244
+Running benchmark: M=256, N=256, K=768
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:768/bl:32      33198 ns        33196 ns        21032
+Running benchmark: M=256, N=256, K=1024
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:1024/bl:32      41603 ns        41601 ns        16844
+Running benchmark: M=256, N=256, K=1280
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:1280/bl:32      49954 ns        49950 ns        13987
+Running benchmark: M=256, N=256, K=1536
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:1536/bl:32      58307 ns        58303 ns        11995
+Running benchmark: M=256, N=256, K=1792
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:1792/bl:32      66711 ns        66707 ns        10480
+Running benchmark: M=256, N=256, K=2048
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:2048/bl:32      75105 ns        75100 ns         9311
+Running benchmark: M=256, N=256, K=2304
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:2304/bl:32      83462 ns        83456 ns         8385
+Running benchmark: M=256, N=256, K=2560
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:2560/bl:32      91796 ns        91790 ns         7621
+Running benchmark: M=256, N=256, K=2816
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:2816/bl:32     100255 ns       100248 ns         6986
+Running benchmark: M=256, N=256, K=3072
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:3072/bl:32     108524 ns       108517 ns         6445
+Running benchmark: M=256, N=256, K=3328
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:3328/bl:32     116940 ns       116930 ns         5986
+Running benchmark: M=256, N=256, K=3584
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:3584/bl:32     125377 ns       125369 ns         5589
+Running benchmark: M=256, N=256, K=3840
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:3840/bl:32     133774 ns       133765 ns         5244
+Running benchmark: M=256, N=256, K=4096
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:4096/bl:32     142214 ns       142204 ns         4928
+Running benchmark: M=256, N=256, K=4352
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:4352/bl:32     150539 ns       150529 ns         4647
+Running benchmark: M=256, N=256, K=4608
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:4608/bl:32     158835 ns       158823 ns         4408
+Running benchmark: M=256, N=256, K=4864
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:4864/bl:32     167251 ns       167239 ns         4190
+Running benchmark: M=256, N=256, K=5120
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:5120/bl:32     175677 ns       175664 ns         3988
+Running benchmark: M=256, N=256, K=5376
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:5376/bl:32     183979 ns       183962 ns         3806
+Running benchmark: M=256, N=256, K=5632
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:5632/bl:32     192434 ns       192421 ns         3642
+Running benchmark: M=256, N=256, K=5888
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:5888/bl:32     200880 ns       200869 ns         3485
+Running benchmark: M=256, N=256, K=6144
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:6144/bl:32     209236 ns       209224 ns         3351
+Running benchmark: M=256, N=256, K=6400
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:6400/bl:32     217488 ns       217475 ns         3220
+Running benchmark: M=256, N=256, K=6656
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:6656/bl:32     225871 ns       225858 ns         3101
+Running benchmark: M=256, N=256, K=6912
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:6912/bl:32     234419 ns       234399 ns         2990
+Running benchmark: M=256, N=256, K=7168
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:7168/bl:32     242618 ns       242603 ns         2886
+Running benchmark: M=256, N=256, K=7424
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:7424/bl:32     250963 ns       250948 ns         2789
+Running benchmark: M=256, N=256, K=7680
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:7680/bl:32     259458 ns       259436 ns         2697
+Running benchmark: M=256, N=256, K=7936
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:7936/bl:32     267745 ns       267726 ns         2612
+Running benchmark: M=256, N=256, K=8192
+kai_matmul_clamp_qai8_qai8p2vlx4_qsi8cxpsb2vlx4_2vlx2vl_sme2_mopa/m:256/n:256/k:8192/bl:32     276160 ns       276145 ns         2536
+All benchmarks finished.
